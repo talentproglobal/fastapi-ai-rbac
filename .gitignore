@@ -1,0 +1,50 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Ignore environment variables & secrets
+.env
+.env.*
+
+# Ignore Virtual Environment (venv)
+venv/
+*.venv
+
+# Ignore IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Logs & Temporary Files
+logs/
+*.log
+*.out
+*.pid
+*.tmp
+.DS_Store
+
+# Ignore OS-Specific Files
+Thumbs.db
+.DS_Store
+
+# Ignore Uploaded Files (if not needed in Git)
+uploads/
+*.pdf
+*.docx
+*.txt
+
+# Ignore Docker-related files (if using Docker)
+docker-compose.override.yml
+
+# Ignore MongoDB Dump Files (if applicable)
+dump/
+
+# Ignore built distributions
+dist/
+build/
+*.egg-info
