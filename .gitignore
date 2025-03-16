@@ -36,7 +36,7 @@ Thumbs.db
 uploads/
 *.pdf
 *.docx
-*.txt
+# *.txt
 
 # Ignore Docker-related files (if using Docker)
 docker-compose.override.yml

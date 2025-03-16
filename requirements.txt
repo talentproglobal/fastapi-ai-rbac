@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic[dotenv]
+pymongo
+oso
+python-multipart
+transformers
+sentence-transformers
