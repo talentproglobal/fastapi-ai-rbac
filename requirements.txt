@@ -1,6 +1,8 @@
 # FastAPI Framework & ASGI Server
 fastapi
 uvicorn
+pydantic[email]
+python-multipart
 
 # Database & Authentication
 pymongo

@@ -4,11 +4,14 @@ FROM python:3.9
 # Set the working directory in the container
 WORKDIR /app
 
+# Upgrade pip to avoid package conflicts
+RUN pip install --upgrade pip setuptools wheel
+
 # Copy the requirements file into the container
 COPY requirements.txt ./
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Force reinstall dependencies
+RUN pip install --no-cache-dir --force-reinstall -r requirements.txt
 
 # Copy the rest of the application code into the container
 COPY . .

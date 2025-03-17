@@ -101,3 +101,7 @@ Run tests with **Pytest**:
 pytest
 ```
 
+## Running with pm2 
+- pm2 start "uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4" --name fastapi-app
+
+
