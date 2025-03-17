@@ -34,7 +34,7 @@ Thumbs.db
 
 # Ignore Uploaded Files (if not needed in Git)
 uploads/
-*.pdf
+# *.pdf
 *.docx
 # *.txt
 
