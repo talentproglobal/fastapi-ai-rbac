@@ -1,10 +1,27 @@
+# FastAPI Framework & ASGI Server
 fastapi
 uvicorn
-python-jose[cryptography]
-passlib[bcrypt]
-pydantic[dotenv]
+
+# Database & Authentication
 pymongo
-oso
-python-multipart
-transformers
+passlib[bcrypt]
+python-dotenv
+pyjwt
+
+# AI & NLP
+langchain
 sentence-transformers
+# chromadb
+transformers
+
+# PDF Processing
+pymupdf
+
+# Role-Based Access Control (RBAC)
+oso
+
+# Testing
+pytest
+
+# Validation
+email-validator

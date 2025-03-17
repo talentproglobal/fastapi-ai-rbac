@@ -48,3 +48,4 @@ dump/
 dist/
 build/
 *.egg-info
+/virtual

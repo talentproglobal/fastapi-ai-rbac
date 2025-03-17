@@ -43,6 +43,10 @@ pip install -r requirements.txt
   ```sh
   docker run --name mongodb -d -p 27017:27017 mongo
   ```
+- **Or use Docker-compose:**
+  ```sh
+  docker-compose up --build -d
+  ```
 
 ### 🔹 5. Run FastAPI Application
 ```sh

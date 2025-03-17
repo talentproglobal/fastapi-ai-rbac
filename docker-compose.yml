@@ -1,0 +1,12 @@
+version: '3'
+services:
+  fastapi-app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env  # Load .env file
+    environment:
+      MONGO_URI: "mongodb://host.docker.internal:27017"  # Override ONLY for Docker
+    extra_hosts:
+      - "host.docker.internal:host-gateway"  # Allow access to host MongoDB
